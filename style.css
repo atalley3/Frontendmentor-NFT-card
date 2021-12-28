@@ -1,0 +1,22 @@
+body {
+  background-color: navy;
+}
+main {
+  max-width: 350px;
+  border-radius: 25px;
+  background-color: lightblue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+}
+.nft-image {
+  max-width: 85%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.credit img {
+  max-width: 30px;
+  border-radius: 50px;
+  border: 1px solid white;
+}
