@@ -8,28 +8,28 @@ body {
   font-family: "Outfit", sans-serif;
 }
 main {
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 15px;
   background-color: hsl(216, 50%, 16%);
   box-shadow: rgb(0 0 0 / 20%) 0px 0px 45px 45px;
   display: block;
   margin: 0 auto;
   margin-top: 150px;
-  margin-bottom: 50px;
-  padding: 22px;
+  margin-bottom: 150px;
+  padding: 25px;
 }
 h2 a {
   color: white;
   font-weight: 600;
-  padding-left: 3px;
+  padding-left: 0px;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--soft-blue);
   font-weight: 300;
   line-height: 2em;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 hr {
   border-color: hsl(215, 32%, 27%);
@@ -61,7 +61,7 @@ footer {
   right: 0;
   opacity: 0;
   transition: all 0.3s ease;
-  background: hsla(178, 100%, 50%, 60%);
+  background: hsla(178, 100%, 50%, 50%);
 }
 .img-container:hover .overlay {
   opacity: 1;
