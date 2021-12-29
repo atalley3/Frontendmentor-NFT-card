@@ -18,7 +18,7 @@ main {
   margin-bottom: 50px;
   padding: 22px;
 }
-h2 {
+h2 a {
   color: white;
   font-weight: 600;
   padding-left: 3px;
@@ -39,18 +39,51 @@ hr {
 footer {
   padding-top: 20px;
 }
+.img-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nft-image {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background: hsla(178, 100%, 50%, 60%);
+}
+.img-container:hover .overlay {
+  opacity: 1;
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hover-icon:hover {
+  color: #eee;
+}
 .box {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
   padding: 15px 3px 20px 3px;
-}
-.nft-image {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  border-radius: 10px;
 }
 .eth {
   color: var(--cyan);
@@ -88,4 +121,12 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: 300;
+}
+a.link {
+  text-decoration: none;
+  transition: all 250ms ease-in-out;
+}
+a.link:hover {
+  color: var(--cyan);
+  text-decoration: none;
 }
