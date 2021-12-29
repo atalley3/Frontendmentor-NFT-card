@@ -1,22 +1,91 @@
+:root {
+  --cyan: hsl(178, 100%, 50%);
+  --soft-blue: hsl(215, 51%, 70%);
+}
+
 body {
-  background-color: navy;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
 }
 main {
   max-width: 350px;
-  border-radius: 25px;
-  background-color: lightblue;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: rgb(0 0 0 / 20%) 0px 0px 45px 45px;
   display: block;
   margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  padding: 22px;
+}
+h2 {
+  color: white;
+  font-weight: 600;
+  padding-left: 3px;
+}
+p {
+  font-size: 20px;
+  color: var(--soft-blue);
+  font-weight: 300;
+  line-height: 2em;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+hr {
+  border-color: hsl(215, 32%, 27%);
+  border-style: solid;
+  border-width: 0.25px;
+}
+footer {
+  padding-top: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 15px 3px 20px 3px;
 }
 .nft-image {
-  max-width: 85%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-top: 10px;
+  border-radius: 10px;
 }
+.eth {
+  color: var(--cyan);
+  font-weight: 400;
+}
+.eth img {
+  position: relative;
+  top: 3px;
+}
+.time-left {
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+.time-left img {
+  position: relative;
+  top: 3px;
+}
+
 .credit img {
   max-width: 30px;
   border-radius: 50px;
-  border: 1px solid white;
+  border: 2px solid white;
+  position: relative;
+  top: 10px;
+  margin-right: 15px;
+}
+.credit {
+  color: var(--soft-blue);
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding-left: 3px;
+}
+.credit a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
 }
