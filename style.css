@@ -130,3 +130,31 @@ a.link:hover {
   color: var(--cyan);
   text-decoration: none;
 }
+
+@media (max-width: 375px) {
+  main {
+    max-width: 275px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .img-container {
+    max-width: 275px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-top: 20px;
+  }
+  .box {
+    padding: 15px 3px 10px 3px;
+    font-size: 16px;
+  }
+  .credit {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}
