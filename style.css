@@ -18,7 +18,12 @@ main {
   margin-bottom: 150px;
   padding: 25px;
 }
-h2 a {
+h1 {
+  font-size: 1.4em;
+  line-height: 2em;
+  margin-bottom: 0px;
+}
+h1 a {
   color: white;
   font-weight: 600;
   padding-left: 0px;
@@ -27,9 +32,10 @@ p {
   font-size: 18px;
   color: var(--soft-blue);
   font-weight: 300;
-  line-height: 2em;
+  line-height: 1.5em;
   padding-left: 0px;
   padding-right: 0px;
+  margin: 15px 0px;
 }
 hr {
   border-color: hsl(215, 32%, 27%);
